@@ -10,8 +10,6 @@ The free-to-use template for your Imagehost-website made with PHP, HTML and CSS!
 
 - The PHP version is `7.4`
 
-- I used a bit of Bootstrap for the fancy success and error popups 😏
-
 # Cloning the repo
 At first, you ofcourse need the code on your computer, you do this with running the following command in your terminal:
 ```
@@ -32,23 +30,11 @@ Now open `localhost:3000/Imagehost-Template/home.php` in your browser and you se
 
 *In case you have changed the folder name you need to change `Imagehost-Template` to the name you renamed that folder to.*
 
-# Huhhhhhh, why does this site look so *weird*???
-That's right, this is because in config.php you still have to adjust a number of data of your choice, such as the path to your favicon, banner, logo, title and other things!
+# Editing config.php
 
-Fortunately, I've been kind enough to post some information next to each line in comment 🤗
+To make it a bit easier for you, all personal data that the website needs is structured in 1 file, namely the `config.php` file, it is intended that you fill in all data via this file, more information about this data is next to the line of this data in comment.
 
-## This is what the page looks like without editing the config.php:
-![img](https://i.imgur.com/w7nbl87.png)
-
-## This is what it looks like when I edited the config.php:
-![img](https://i.imgur.com/dG8Vmea.png)
-
-## Edited config.php:
-![img](https://i.imgur.com/z6aOxbw.png)
-
-Such a little work, but such a nice result.. Cool isn't it!
-
-> **PS:** I made an images folder for you, maybe you can use it well..
+> **PS:** I have already filled in the image paths in this file for you, so you also have a nice image of the site before this data is entered, but feel free to adjust these images to what you want 😉
 
 # Explore the website
 
@@ -57,7 +43,7 @@ Just take a look around the website to see how everything works! I am sure you w
 # Editing the front-end
 
 Some useful info for editing the pages:
-- Every page has its own stylesheet in the `css` folder, just look at the names of the stylesheets and you will understand which page belongs to which page!
+- Every page has its own stylesheet in the `css` folder, just look at the names of the stylesheets and you will understand which page belongs to which page I think!
 
 - Don't change the `php` if you have no experience with it, you are free to use the html, as long as you don't adjust the actions and methods in the forms..
 
