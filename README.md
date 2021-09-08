@@ -13,7 +13,7 @@ The free-to-use template for your Imagehost-website made with PHP, HTML and CSS!
 - I used a bit of Bootstrap for the fancy success and error popups 😏
 
 # Cloning the repo
-First you need the code on your computer, of course, you do this as follows:
+At first, you ofcourse need the code on your computer, you do this with running the following command in your terminal:
 ```
 git clone https://github.com/Iliannnn/Imagehost-Template
 ```
@@ -57,11 +57,11 @@ Just take a look around the website to see how everything works! I am sure you w
 # Editing the front-end
 
 Some useful info for editing the pages:
-- Every page has its own stylesheet in the `css` folder, just look at the names of the stylesheets and you will understand which page belongs to which page I think!
+- Every page has its own stylesheet in the `css` folder, just look at the names of the stylesheets and you will understand which page belongs to which page!
 
-- Don't change the `php` if you have no experience with this, you are free to use the html, as long as you don't adjust the actions and methods in the forms..
+- Don't change the `php` if you have no experience with it, you are free to use the html, as long as you don't adjust the actions and methods in the forms..
 
-- Delete **NEVER** the `uploads` folder, because this will contain the uploaded images, changing the name is also not a good idea..
+- **NEVER** delete the `uploads` folder, because this will contain the uploaded images, changing the name is also not a good idea..
 
 - Have fun with this template and make it a nice website!
 
