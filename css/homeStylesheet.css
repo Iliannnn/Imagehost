@@ -1,0 +1,78 @@
+@font-face {
+    font-family: VAG Rounded Regular;
+    src: url(./fonts/VAG\ Rounded\ Regular.ttf);
+}
+
+@font-face {
+    font-family: VAG Rounded Bold;
+    src: url(./fonts/VAG\ Rounded\ Black.ttf);
+}
+* {
+    font-family: VAG Rounded Regular;
+}
+
+body {
+    background-color: #05AC98;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100px;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.logo {
+    width: 450px;
+}
+
+.btn {
+    width: 159px;
+    height: 46px;
+    background-color: #2FEB83;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    top: -100px;
+    left: 435px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #36d37c;
+}
+
+.desc {
+    align-items: center;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.big-btn {
+    width: 200px;
+    height: 87px;
+    background-color: #2FEB83;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.big-btn:hover {
+    background-color: #36d37c;
+}

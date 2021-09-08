@@ -1,0 +1,13 @@
+@font-face {
+    font-family: VAG Rounded Regular;
+    src: url(./fonts/VAG\ Rounded\ Regular.ttf);
+}
+
+@font-face {
+    font-family: VAG Rounded Bold;
+    src: url(./fonts/VAG\ Rounded\ Black.ttf);
+}
+
+* {
+    font-family: VAG Rounded Regular;
+}

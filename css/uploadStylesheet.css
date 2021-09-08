@@ -1,0 +1,163 @@
+@font-face {
+    font-family: VAG Rounded Regular;
+    src: url(./fonts/VAG\ Rounded\ Regular.ttf);
+}
+
+@font-face {
+    font-family: VAG Rounded Bold;
+    src: url(./fonts/VAG\ Rounded\ Black.ttf);
+}
+
+* {
+    font-family: VAG Rounded Regular;
+}
+
+body {
+    background: #2e3035;
+    background-size: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100px;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.logo {
+    width: 450px;
+    opacity: 60%;
+}
+
+@keyframes popup-ani {
+    from {
+        width: 0px;
+        height: 0px;
+    }
+
+    to {
+        width: 550px;
+        height: 700px;
+    }
+}
+
+.popup {
+    background-image: url(../images/cover.png);
+    background-repeat: no-repeat;
+    background-color: #3c424b;
+    width: 550px;
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    box-shadow: 0 6px 10px 0 rgb(27 28 30 / 31%);
+    animation-name: popup-ani;
+    animation-duration: 1s;
+}
+
+
+.name-box {
+    width: 300px;
+    height: 35px;
+    background-color: #272a33;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 0.05px;
+    border-radius: 3px;
+    font-size: large;
+    position: absolute;
+    top: 480px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    outline: none;
+    caret-color: white;
+    color: white;
+}
+
+
+.name-box:focus {
+    border-color: white;
+}
+
+.name-box:hover {
+    border-color: white;
+}
+
+.name-box:focus::placeholder {
+    color: transparent;
+}
+
+::placeholder {
+    color: white;
+}
+
+.file-btn {
+    display: block;
+    width: 159px;
+    height: 46px;
+    background-color: #2FEB83;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 200%;
+    position: absolute;
+    top: 530px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.file-btn:hover {
+    background-color: #36d37c;
+}
+
+.submit-btn {
+    display: block;
+    width: 450px;
+    height: 46px;
+    background-color: #2FEB83;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 200%;
+    position: absolute;
+    top: 650px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.submit-btn:hover {
+    background-color: #36d37c;
+}
+
+.close-btn {
+    position: absolute;
+    left: 90%;
+    top: -5%;
+    opacity: 98%;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    opacity: 90%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+input[type="submit"] {
+    display: none;
+}
