@@ -42,7 +42,6 @@ body {
 }
 
 .popup {
-    background-image: url(../images/cover.png);
     background-repeat: no-repeat;
     background-color: #3c424b;
     width: 550px;
