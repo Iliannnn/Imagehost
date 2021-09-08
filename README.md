@@ -1,6 +1,5 @@
 ![banner](https://media.discordapp.net/attachments/856526431063769118/885158137294905434/banner.png?width=1260&height=329)
 
-# ImagehostTemplate
 The free-to-use template for your Imagehost-website made with PHP, HTML and CSS!
 
 # Some information before we start
