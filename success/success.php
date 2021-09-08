@@ -27,6 +27,7 @@ include_once 'config.php'
 
 </head>
 
+
 <script>
     function copy() {
         let url = document.getElementById("url");
