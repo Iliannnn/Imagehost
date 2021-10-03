@@ -1,4 +1,4 @@
-<img src="https://media.discordapp.net/attachments/856526431063769118/885158137294905434/banner.png?width=1260&height=329" width="3000px">
+<img src="https://media.discordapp.net/attachments/833275305812426772/894122113596784650/PHPbanner.png?width=1260&height=319" width="3000px">
 
 The free-to-use template for your Imagehost-website made with PHP, HTML and CSS!
 
