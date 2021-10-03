@@ -48,7 +48,7 @@ include_once 'config.php'
 
 <body>
 
-    <img src="images/ImageHostTemplateLogo.png" alt="logo" class="logo">
+    <img src="<?= $config['logoPath']; ?>" alt="logo" class="logo">
 
     <div class="modal-confirm">
         <div class="modal-content">
@@ -61,7 +61,10 @@ include_once 'config.php'
             <div class="modal-body">
                 <p class="text-center">Your image has been uploaded successfully!</p>
                 <br>
-                <input type="text" class="link-input" readonly="" id="url" value="https://<?= $config['domain'] ?>/uploads/<?= $fileName ?>">
+                <?
+                $URL = $config["url"];
+                echo "<input type=\"text\" class=\"link-input\" readonly=\"\" id=\"url\" value=\"$URL/uploads/$newFileName\">";
+                ?>
 
                 <button class="copy-btn" onclick="copy()" id="copyBtn">Copy</button>
 
