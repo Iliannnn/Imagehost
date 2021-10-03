@@ -7,4 +7,4 @@ $config['bannerPath'] = 'images/banner.png'; /* Path to the banner of your websi
 $config['coverPath'] = 'images/cover.png'; /* Path to the cover of your website */
 $config['description'] = 'The free-to-use template for your Imagehost-website made with PHP, HTML and CSS!'; /* Small description that will be shown on the site */
 $config['maxFileSize'] = '500000000000000000000'; /* The max file-size users can upload (in bytes) */
-$config['url'] = 'https://www.example.com/';
+$config['url'] = 'https://www.example.com';
