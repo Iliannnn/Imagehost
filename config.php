@@ -1,6 +1,6 @@
 <?php
 $config['title'] = 'Imagehost-Template'; /* Title of your (Imagehost)-website */
-$config['fontawesome-key'] = '466b8bcbcf'; /* Your fontAwesome key, can be found here: https://fontawesome.com/kits */
+$config['fontawesome-key'] = 'yourKey'; /* Your fontAwesome key, can be found here: https://fontawesome.com/kits */
 $config['faviconPath'] = "images/favicon.ico"; /* Path to the favicon of your website, file must be named 'favicon.ico' */
 $config['logoPath'] = "images/logo.png"; /* Path to the logo of your website */
 $config['bannerPath'] = 'images/banner.png'; /* Path to the banner of your website */
