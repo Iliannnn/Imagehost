@@ -30,7 +30,7 @@ include_once 'config.php'
 
 <body>
 
-	<img src="images/ImageHostTemplateLogo.png" alt="logo" class="logo">
+	<img src="<?= $config['logoPath']; ?>" alt="logo" class="logo">
 
 	<div class="modal-confirm">
 		<div class="modal-content">

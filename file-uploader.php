@@ -46,13 +46,10 @@ include_once 'config.php'
 
         if (in_array($fileActualExt, $allowed)) {
             if ($fileError === 0) {
-                if ($fileSize < 25000000) {
-                    $fileDestination = 'uploads/' . $fileName;
-                    if (file_exists($fileDestination)) {
-                        $desc = "An image with this name has already been uploaded, rename the file or upload another file!";
-                        include "errors/errorPopup.php";
-                        return;
-                    }
+                if ($fileSize < $config['maxFileSize']) {
+                    $id = substr(str_shuffle("0123456789abcdefghijklmnopqrstvwxyzABCDEFGHIJKLMNOPQRSTVWXYZ"), 0, 6);
+                    $newFileName = "$id.$fileActualExt";
+                    $fileDestination = 'uploads/' . $newFileName;
                     move_uploaded_file($fileTmpName, $fileDestination);
                     include "success/success.php";
                 } else {
