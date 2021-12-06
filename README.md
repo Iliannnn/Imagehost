@@ -49,4 +49,4 @@ Some useful info for editing the pages:
 
 - Have fun with this template and make it a nice website!
 
-### Need help? DM me on Discord `Ilian#6635`
+### Need help? DM me on Discord `Iliannnn#0001`
