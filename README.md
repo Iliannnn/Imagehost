@@ -11,9 +11,9 @@ The free-to-use template for your Imagehost-website made with PHP
 # Cloning the repo
 At first, you ofcourse need the code on your computer, you do this with running the following command in your terminal:
 ```
-git clone https://github.com/Iliannnn/Imagehost
+git clone https://github.com/Iliannnn/Imagehost.gist
 ```
-*( Installing [Git](https://git-scm.com/) is required )*
+*(Installing [Git](https://git-scm.com/) is required)*
 
 Now make sure these files are in your root folder *( C:\Users\YOUR_USER )*
 
@@ -22,7 +22,7 @@ Now make sure these files are in your root folder *( C:\Users\YOUR_USER )*
 ```
 php -S localhost:3000
 ```
-*( Installing [PHP 7.4](https://windows.php.net/download#php-7.4) is required )*
+*(Installing [PHP 7.4](https://php.net/download#php-7.4) is required)*
 
 Now open `localhost:3000/Imagehost-Template/home.php` in your browser and you see your page!
 
