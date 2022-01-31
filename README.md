@@ -1,4 +1,4 @@
-The free-to-use template for your Imagehost-website made with PHP, HTML and CSS!
+The free-to-use template for your Imagehost-website made with PHP
 
 # Some information before we start
 
