@@ -34,7 +34,7 @@ include_once 'config.php'
         $fileType = $file['type'];
 
         if (!$fileName) {
-            $desc = "Your upload could not be processed because you did not specify a file.";
+            $desc = "Your upload could not be processed because you didn't specify a file.";
             include "errors/errorPopup.php";
             return;
         };
@@ -54,7 +54,7 @@ include_once 'config.php'
                     include "success/success.php";
                 } else {
                     echo $fileSize;
-                    $desc = "Your uploaded image is larger than 25mb, try again with a smaller image!";
+                    $desc = "Your uploaded image is larger than 25mb, try again with a smaller image.";
                     include "errors/errorPopup.php";
                     return;
                 }
