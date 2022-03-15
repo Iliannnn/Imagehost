@@ -32,21 +32,19 @@ Now open `localhost:3000/Imagehost-Template/home.php` in your browser and you se
 
 To make it a bit easier for you, all personal data that the website needs is structured in 1 file, namely the `config.php` file, it is intended that you fill in all data via this file, more information about this data is next to the line of this data in comment.
 
-> **PS:** I have already filled in the image paths in this file for you, so you also have a nice image of the site before this data is entered, but feel free to adjust these images to what you want 😉
+> **PS:** I have already filled in the image paths in this file for you, so you also have a nice image of the site before it is configurated, but feel free to adjust these images to what you want
 
 # Explore the website
 
-Just take a look around the website to see how everything works! I am sure you will like it! 😀
+Just take a look around the website to see how everything works
 
-# Editing the front-end
+# Editing the frontend
 
 Some useful info for editing the pages:
-- Every page has its own stylesheet in the `css` folder, just look at the names of the stylesheets and you will understand which page belongs to which page I think!
+- Every page has its own stylesheet in the `css` folder, just look at the names of the stylesheets and you will understand which page belongs to which
 
 - Don't change the `php` if you have no experience with it, you are free to use the html, as long as you don't adjust the actions and methods in the forms..
 
-- **NEVER** delete the `uploads` folder, because this will contain the uploaded images, changing the name is also not a good idea..
+- **NEVER** delete the `uploads` folder, if you're not willing to lose all your images, changing the name is also not a good idea..
 
-- Have fun with this template and make it a nice website!
-
-### Need help? DM me on Discord `Iliannnn#0001`
+### Need help? DM me on Discord: `Iliannnn#0001`
