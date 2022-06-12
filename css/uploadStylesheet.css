@@ -19,7 +19,6 @@ body {
     margin-left: 0;
     margin-right: 0;
     max-width: 100px;
-    background-size: cover;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -75,7 +74,6 @@ body {
     color: white;
 }
 
-
 .name-box:focus {
     border-color: white;
 }
@@ -96,7 +94,7 @@ body {
     display: block;
     width: 159px;
     height: 46px;
-    background-color: #2FEB83;
+    background-color: #2feb83;
     border: none;
     border-radius: 10px;
     color: white;
@@ -109,7 +107,6 @@ body {
     top: 530px;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
 }
 
 .file-btn:hover {

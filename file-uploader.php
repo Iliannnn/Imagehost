@@ -53,7 +53,6 @@ include_once 'config.php'
                     move_uploaded_file($fileTmpName, $fileDestination);
                     include "success/success.php";
                 } else {
-                    echo $fileSize;
                     $desc = "Your uploaded image is larger than 25mb, try again with a smaller image.";
                     include "errors/errorPopup.php";
                     return;

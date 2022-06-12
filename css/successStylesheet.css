@@ -36,6 +36,7 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin-top: 80px;
 }
 
 .modal-confirm .modal-content {
@@ -97,10 +98,6 @@ body {
     top: 3px;
 }
 
-.modal-confirm {
-    margin-top: 80px;
-}
-
 .modal-confirm .btn {
     color: #fff;
     border-radius: 4px;
@@ -129,7 +126,7 @@ body {
     padding: 0 12px;
     color: #636363;
     font-size: 14px;
-    letter-spacing: .2px;
+    letter-spacing: 0.2px;
     background: transparent;
     border: 0;
     line-height: 36px;
@@ -141,7 +138,7 @@ body {
 }
 
 .copy-btn {
-    background-color: #2FEB83;
+    background-color: #2feb83;
     height: 30px;
     width: 50px;
     border: none;
