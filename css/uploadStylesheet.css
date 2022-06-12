@@ -117,7 +117,7 @@ body {
     display: block;
     width: 450px;
     height: 46px;
-    background-color: #2FEB83;
+    background-color: #2feb83;
     border: none;
     border-radius: 10px;
     color: white;
@@ -130,7 +130,6 @@ body {
     top: 650px;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center;
 }
 
 .submit-btn:hover {
