@@ -1,3 +1,6 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/b98dfd2627b14883aac8a0a25fde6e49)](https://www.codacy.com/gh/Iliannnn/Imagehost/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Iliannnn/Imagehost&amp;utm_campaign=Badge_Grade)
+![Lines of code](https://img.shields.io/tokei/lines/github/Iliannnn/Imagehost) 
+
 The free-to-use template for your Imagehost-website made with PHP
 
 # Some information before we start
