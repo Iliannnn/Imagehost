@@ -47,4 +47,4 @@ Some useful info for editing the pages:
 - Don't change the `php` if you have no experience with it, you are free to use the html, as long as you don't adjust the actions and methods in the forms
 - **NEVER** delete the `uploads` folder if you're not willing to lose all your images, changing the name is also not a good idea..
 
-### Need help? DM me on Discord: `Iliannnn#0001`
+### Need help? Contact me
